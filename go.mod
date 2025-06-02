@@ -11,9 +11,9 @@ replace (
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/layer5io/meshery-adapter-library v0.6.7
-	github.com/layer5io/meshkit v0.6.49
-	github.com/layer5io/service-mesh-performance v0.3.4
+	github.com/meshery/meshery-adapter-library v0.6.7
+	github.com/meshery/meshkit v0.6.49
+	github.com/service-mesh-performance/service-mesh-performance v0.3.4
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/apimachinery v0.26.2
 )
