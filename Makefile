@@ -1,12 +1,12 @@
 docker:
-	docker build -t layer5/meshery-nginx-sm .
+	docker build -t meshery/meshery-nginx-sm .
 
 docker-run:
 	(docker rm -f meshery-nginx-sm) || true
 	docker run --name meshery-nginx-sm -d \
 	-p 10010:10010 \
 	-e DEBUG=true \
-	layer5/meshery-nginx-sm
+	meshery/meshery-nginx-sm
 
 test:
 	go test --short ./... -race -coverprofile=coverage.txt -covermode=atomic

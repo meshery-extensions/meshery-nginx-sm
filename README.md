@@ -10,11 +10,11 @@
 # Meshery Adapter for NGINX Service Mesh
 <div align="center">
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/layer5/meshery-nginx-sm.svg)](https://hub.docker.com/r/layer5/meshery-nginx-sm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/layer5io/meshery-nginx-sm)](https://goreportcard.com/report/github.com/layer5io/meshery-nginx-sm)
+[![Docker Pulls](https://img.shields.io/docker/pulls/meshery/meshery-nginx-sm.svg)](https://hub.docker.com/r/meshery/meshery-nginx-sm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/meshery/meshery-nginx-sm)](https://goreportcard.com/report/github.com/meshery/meshery-nginx-sm)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/meshery/meshery-nginx-sm/multi-platform.yml?branch=master)](https://github.com/meshery/meshery-nginx-sm/actions)
 [![GitHub](https://img.shields.io/github/license/meshery/meshery-nginx-sm.svg)](https://github.com/meshery/meshery-nginx-sm/blob/master/LICENSE)
-[![GitHub issues by-label](https://img.shields.io/github/issues/layer5io/meshery-nginx-sm/help%20wanted.svg)](https://github.com/layer5io/meshery-nginx-sm/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![GitHub issues by-label](https://img.shields.io/github/issues/meshery/meshery-nginx-sm/help%20wanted.svg)](https://github.com/meshery/meshery-nginx-sm/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://meshery.io)
 [![Twitter Follow](https://img.shields.io/twitter/follow/mesheryio.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=mesheryio)
 [![Discuss Users](https://img.shields.io/discourse/users?server=https%3A%2F%2Fdiscuss.layer5.io)](https://meshery.io/community#discussion-forums)
