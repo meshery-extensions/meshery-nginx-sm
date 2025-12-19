@@ -40,7 +40,7 @@ jobs:
 
       # to push changes to meshery docs
       - name: Checkout meshery
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           repository: "meshery/meshery"
           # token with write access to meshery repository
