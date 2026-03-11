@@ -90,8 +90,8 @@ jobs:
           pretty=$(jq . data.json)
           rm data.json
           
-          mkdir -p ./docs/_compatibility/meshery-nginx-sm
-          cd ./docs/_compatibility/meshery-nginx-sm
+          mkdir -p ./docs/content/en/project/compatibility/meshery-nginx-sm
+          cd ./docs/content/en/project/compatibility/meshery-nginx-sm
           touch data.json
           echo $pretty > data.json
           cat data.json
