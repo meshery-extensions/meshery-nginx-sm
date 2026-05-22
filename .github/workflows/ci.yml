@@ -129,22 +129,4 @@ jobs:
           cache-dependency-path: go.sum
       - name: go mod tidy
         run: make tidy       
-  codecov:
-    name: codecov
-    needs: [ tidy ]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-go@master
-        with:
-          go-version: '1.21'
-          cache: true
-          cache-dependency-path: go.sum
-      - name: Unit test
-        run: make test
-      - name: Upload covergae to Codecov
-        if: github.repository == 'meshery/meshery-nginx-sm'
-        uses: codecov/codecov-action@v3
-        with:
-          files: ./coverage.out
-          flags: unittests
+  
